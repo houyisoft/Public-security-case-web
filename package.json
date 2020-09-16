@@ -1,0 +1,49 @@
+{
+  "name": "public-security",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build"
+  },
+  "dependencies": {
+    "@riophae/vue-treeselect": "^0.4.0",
+    "axios": "^0.19.2",
+    "core-js": "^3.6.5",
+    "element-ui": "^2.13.2",
+    "js-cookie": "^2.2.1",
+    "konva": "^6.0.0",
+    "nprogress": "^0.2.0",
+    "path-to-regexp": "^6.1.0",
+    "qs": "^6.9.4",
+    "vue": "^2.6.11",
+    "vue-konva": "^2.1.3",
+    "vue-router": "^3.3.2",
+    "vuex": "^3.4.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.4.1",
+    "@vue/cli-plugin-router": "~4.4.1",
+    "@vue/cli-plugin-vuex": "~4.4.1",
+    "@vue/cli-service": "~4.4.1",
+    "autoprefixer": "^9.8.0",
+    "node-sass": "^4.14.1",
+    "postcss-cssnext": "^3.1.0",
+    "postcss-import": "^12.0.1",
+    "sass": "^1.26.7",
+    "sass-loader": "^8.0.2",
+    "svg-sprite-loader": "4.1.3",
+    "svgo": "1.2.0",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "browserslist": [
+    "> 10%",
+    "last 7 versions"
+  ],
+  "postcss": {
+    "plugins": {
+      "postcss-import": {},
+      "postcss-cssnext": {}
+    }
+  }
+}
